@@ -4,7 +4,7 @@ subtitle: and Spread Happiness, Select the Category
 email: 
 description:
 baseurl: "" # the subpath of your site, e.g. /blog
-url: ""# the base hostname & protocol for your site
+url: "https://sharewish.in"# the base hostname & protocol for your site
 author:
 street_address:
 city: 
