@@ -1,0 +1,24 @@
+- title: Good Morning
+  url: /good_morning
+  image: /img/
+  description: Make the morning good with lovely wishes
+
+- title: Good Night
+  url: /good_night
+  image: /img/
+  description: Make the night full of dreams with sweet wishes
+
+- title: Love You
+  url: /love_you
+  image: /img/
+  description: Express your love and it it grow
+
+- title: Miss You
+  url: /miss_you
+  image: /img/
+  description: Never keep inside when you miss them
+
+- title: Hate You
+  url: /hate_you
+  image: /img/
+  description: It is okay to let it go
