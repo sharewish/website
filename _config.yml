@@ -1,7 +1,7 @@
 # site settings
 title: sharewish
 subtitle: and Spread Happiness
-categorytitle: Select the Category
+categorytitle: -- Select the Category
 email: 
 description:
 baseurl: "" # the subpath of your site, e.g. /blog
