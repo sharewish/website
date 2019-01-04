@@ -1,5 +1,9 @@
 .md-cards_item {
- position: relative;
+  padding: 0;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  position: relative;
   display: flex;
   margin-top: 0.5em;
   @media(min-width: 40rem) {
@@ -9,8 +13,12 @@
     width: 100%;
   }
 }
+.md-card.link-no-color a {
+    border: none;
+}
 
 .md-card {
+  border: none;
   background-color: white;
   border-radius: 0.25rem;
   box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25);
@@ -22,6 +30,17 @@
       filter: contrast(100%);
     }
   }
+}
+
+.md-card_image{
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height:100%;
+  width:100%;
 }
 
 .md-card_content {
