@@ -1,6 +1,7 @@
 # site settings
 title: sharewish
-subtitle: and Spread Happiness, Select the Category
+subtitle: and Spread Happiness
+categorytitle: Select the Category
 email: 
 description:
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -12,6 +13,9 @@ state:
 zip_code:
 country:
 phone:
+
+# applicable to posts
+permalink: /:categories/:title/
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"

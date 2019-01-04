@@ -1,0 +1,17 @@
+.grid-three {
+      margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    margin: 0;
+    padding: 0;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+@media only screen and (min-width: 768px) {
+.grid-three {
+    grid-template-columns: repeat(3, 1fr);
+}
+}

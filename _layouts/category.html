@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+{% include head.html %}
+
+<body>
+
+    {% include header.html %}
+<ul class="grid-three">
+{% for post in site.categories[page.category] %}
+{% capture posturl %} {{ post.url | prepend: site.baseurl }}{% endcapture %}
+{% include material_card.html title=post.title description=post.subtitle
+ url=posturl image=post.image
+ %}
+
+  {% endfor %}
+
+  </ul>
+
+
+ {% include footer.html %}
+
+</body>
+
+</html>
