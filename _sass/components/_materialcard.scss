@@ -17,6 +17,10 @@
     border: none;
 }
 
+h2.post-title {
+    margin: 0;
+}
+
 .md-card {
   border: none;
   background-color: white;
@@ -41,6 +45,11 @@
   right: 0;
   height:100%;
   width:100%;
+}
+
+.md-card_image img {
+    height: 100%;
+    width: 100%;
 }
 
 .md-card_content {
