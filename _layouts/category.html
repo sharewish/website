@@ -22,10 +22,20 @@
  {% endif %}
 {% endif %}
 
-
-  {% endfor %}
-
+{% endfor %}
   </ul>
+
+<ul class="actions vertical nextprevious">                    
+
+  {% if page.previous %}
+  <li><a href="{{page.previousPageAddr}}" class="button">Previous</a></li>
+{% endif %}
+
+{% if page.next %}
+<li><a href="{{page.nextPageAddr}}" class="button next">Next</a></li>
+{% endif %}
+
+</ul>
 
 
  {% include footer.html %}
