@@ -9,4 +9,6 @@ show_tile: false
 share_icons: true
 categorytitle: Good Morning Wishes
 category: good_morning
+start: 2
+end: 100
 ---
