@@ -13,10 +13,15 @@
     {% include header.html %}
 <ul class="grid-three">
 {% for post in site.categories[page.category] %}
-{% capture posturl %} {{ post.url | prepend: site.baseurl }}{% endcapture %}
+{% if forloop.index >= page.start %}
+{% if forloop.index <= page.end %}
+    {% capture posturl %} {{ post.url | prepend: site.baseurl }}{% endcapture %}
 {% include material_card.html title=post.title description=post.subtitle
  url=posturl image=post.image
  %}
+ {% endif %}
+{% endif %}
+
 
   {% endfor %}
 
