@@ -9,8 +9,10 @@ show_tile: false
 share_icons: true
 category:    good_morning
 categorytitle:    Good Morning
-start:    1
-end:    6
+start:    6
+end:    11
+previous:    true
+previousPageAddr:    /good_morning/
 next:    true
-nextPageAddr:    /good_morning/page2
+nextPageAddr:    /good_morning/page3
 ---

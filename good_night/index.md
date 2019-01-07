@@ -7,10 +7,8 @@ image: null
 author: null
 show_tile: false
 share_icons: true
-category:    good_morning
-categorytitle:    Good Morning
+category:    good_night
+categorytitle:    Good Night
 start:    1
 end:    6
-next:    true
-nextPageAddr:    /good_morning/page2
 ---
