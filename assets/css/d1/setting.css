@@ -39,3 +39,30 @@
   text-decoration: none;
   cursor: pointer;
 }
+@font-face {
+    font-family: Aspire-DemiBold;
+    src: url(../fonts/Aspire-DemiBold.ttf);
+}
+@font-face {
+    font-family: lv;
+    src: url(../fonts/lv.ttf);
+}
+.top{ position: absolute; top: 10px; z-index: 9999; width: 100%; text-align: center;}
+.top span{font-family: Aspire-DemiBold; font-size: 50px; color: #fff;}
+
+.top2{ position: absolute; top: 10px; z-index: 9999; width: 100%; text-align: center;}
+.top2 span{font-family: Aspire-DemiBold; font-size: 40px; color: #000;}
+
+.top3{ position: absolute; top: 11%; z-index: 9999; width: 100%; text-align: center;}
+.top3 span{font-family: Aspire-DemiBold; font-size: 40px; color: #000;}
+
+.top4{ position: absolute; top: 2%; z-index: 9999; width: 100%; text-align: center;}
+.top4 div{ font-family: Aspire-DemiBold; font-size: 40px; color: #000;}
+
+.top4a{ position: absolute; top: 2%; z-index: 9999; width: 100%; text-align: center;}
+.top4a span{ font-family: Aspire-DemiBold; font-size: 40px; color: #000;}
+
+
+.top5{ position: absolute; top: 10%; z-index: 9999; width: 100%; text-align: center;}
+.top5 span{font-family: Aspire-DemiBold; font-size: 50px; color: #fff;}
+

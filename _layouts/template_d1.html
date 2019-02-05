@@ -3,6 +3,13 @@ layout: wish
 removesitecss: hkkk
 ---
 <!-- template d1 is for kuk developer -->
-{{ content }}
+
 <link href="/assets/css/d1/setting.css" rel="stylesheet" type="text/css">
+{{ content }}
+{% if page.share1 %}
 {% include d1_share_dialog.html %}
+{% elsif page.share2 %}
+{% include d1_share_dialog_2.html %}
+{% else %}
+Share Missing
+{% endif %}

@@ -9,7 +9,7 @@
 .choco{ background: url(../images/c-bg.jpg) no-repeat; text-align: center; font-family: kr; font-size: 50px;display: flex;
   justify-content: center;}
 
-.choco2{ background: url(../images/chocolate-bg.gif) no-repeat; text-align: center; font-family: kr; font-size: 40px; color: #753b02;}
+.choco2{ background: url(../images/chocolate-bg.gif) no-repeat; text-align: center; font-family: kr; font-size: 40px; color: #753b02; overflow-x: hidden;}
 
 
 .name{
