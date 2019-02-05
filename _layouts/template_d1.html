@@ -1,15 +1,21 @@
----
-layout: wish
-removesitecss: hkkk
----
+<!DOCTYPE html>
 <!-- template d1 is for kuk developer -->
+<html>
+<head>
+<meta charset="utf-8">
+<title>Happy Birthday Candle Wish</title>
+{% if page.css %}
+<link href="/assets/css/d1/{{ page.css }}" rel="stylesheet" type="text/css">
+{% else %}
+<link href="/assets/css/d1/style.css" rel="stylesheet" type="text/css">
+{% endif %}
 
 <link href="/assets/css/d1/setting.css" rel="stylesheet" type="text/css">
+<script src="/assets/js/jquery.min.js"></script> 
+{% include google_analytics.html %}
+
+
+</head>
+
 {{ content }}
-{% if page.share1 %}
-{% include d1_share_dialog.html %}
-{% elsif page.share2 %}
-{% include d1_share_dialog_2.html %}
-{% else %}
-Share Missing
-{% endif %}
+</html>
