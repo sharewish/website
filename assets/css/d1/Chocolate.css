@@ -1,15 +1,15 @@
 @font-face {
     font-family: kr;
-    src: url(../fonts/kr.ttf);
+    src: url(/assets/fonts/kr.ttf);
 }
 @font-face {
     font-family: Aspire-DemiBold;
-    src: url(../fonts/Aspire-DemiBold.ttf);
+    src: url(/assets/fonts/Aspire-DemiBold.ttf);
 }
-.choco{ background: url(../images/c-bg.jpg) no-repeat; text-align: center; font-family: kr; font-size: 50px;display: flex;
+.choco{ background: url(/assets/images/d1/c-bg.jpg) no-repeat; text-align: center; font-family: kr; font-size: 50px;display: flex;
   justify-content: center;}
 
-.choco2{ background: url(../images/chocolate-bg.gif) no-repeat; text-align: center; font-family: kr; font-size: 40px; color: #753b02; overflow-x: hidden;}
+.choco2{ background: url(/assets/images/d1/chocolate-bg.gif) no-repeat; text-align: center; font-family: kr; font-size: 40px; color: #753b02; overflow-x: hidden;}
 
 
 .name{
