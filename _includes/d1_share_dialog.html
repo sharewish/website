@@ -1,0 +1,46 @@
+     <img src="/assets/images/d1/setting.png" class="set myBtn">
+<div id="myModal" class="modal"> 
+  
+  <!-- Modal content -->
+  <div class="modal-content"> <span class="close">&times;</span>
+    <form class="form" method="get">
+      <input type="text" name ="n" class="form-input" placeholder="Enter Your Name" required>
+      <input type="text" name ="r" class="form-input" placeholder="Enter Receiver Name" required>
+      <button class="btn"><img src="/assets/images/d1/sub.png"></button>
+      <a href="#"><img src="/assets/images/d1/whats-app.png"></a> <a href="#"><img src="/assets/images/d1/fb.png"></a>
+    </form>
+  </div>
+</div>
+<script> 
+       $(function() {
+      location.queryString = {};
+      location.search.substr(1).split("?").forEach(function (pair) {
+        if (pair === "") return;
+        pair = pair.replace("n=", "");
+        pair = pair.replace("r=", "");
+        var parts = pair.split("&");
+        $("#sendername").html(parts[0]);
+        $("#receivername").html(parts[1]);
+      });
+      $("#myModal").hide();
+      $(".myBtn").click(function(){
+        $("#myModal").show();
+      });
+      $(".close").click(function(){
+        $("#myModal").hide();
+      });
+      jQuery.fn.shake = function() {
+    this.each(function(i) {
+        for (var x = 1; x <= 3; x++) {
+            $(this).animate({right : -25}, 10).animate({ right : 0 }, 50).animate({right : 25 }, 10).animate({right : 0}, 50);
+        }
+    });
+    return this;
+}
+setInterval(function() {
+    $('.myBtn').shake();
+}, 5000); 
+    });
+
+</script> 
+  <img src="/assets/images/d1/setting.png" class="set2 myBtn">

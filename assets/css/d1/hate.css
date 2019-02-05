@@ -1,0 +1,43 @@
+body{ background: url(../images/hbg.gif) no-repeat center center fixed; 
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;} 
+.body {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #e80043; text-align: center;
+}
+
+.word-wrapper {
+  font-weight: 200;
+  font-size: 3.2em;
+}
+.word-wrapper .word-wrapper-in {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+.word-wrapper .bottom-line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #fff;
+  transform-origin: 100% 100%;
+  bottom: 0;
+}
+.word-wrapper .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+@font-face {
+    font-family: Aspire-DemiBold;
+    src: url(../fonts/Aspire-DemiBold.ttf);
+}
+.name{  font-family: Aspire-DemiBold; font-size: 50px; color: #000; margin-top: 1em;}

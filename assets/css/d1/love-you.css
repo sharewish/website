@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:100,300,400,500,700&subset=latin-ext');
+@font-face {
+    font-family: Aspire-DemiBold;
+    src: url(../fonts/Aspire-DemiBold.ttf);
+}
+.l-txt{ position: absolute; text-align: center; width: 100%; bottom: 10%; color: #fff;  font-family: Aspire-DemiBold; font-size: 50px;}
+.content {
+  text-align: center;
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+  max-width: 1000px;
+}
+.text-before, .text-after {
+  font-size: 40px;
+  color: #fff;
+  width: 100%;
+  display: inline-block;
+}
+.icon {
+  width: 280px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+.icon-svg {
+  width: 100px;
+  height: 100px;
+  fill: #fc3c3c;
+  animation: pulse 0.8s ease 0.5s infinite;
+}
+@keyframes pulse {
+  0%, 100% {
+    width: 100px;
+    height: 100px;
+  }
+  40% {
+    width: 150px;
+    height: 150px;
+  }
+  80% {
+    width: 200px;
+    height: 200px;
+  }
+}
+@media (min-width: 600px) {
+  .text-before {
+    width: 50px;
+    text-align: right;
+  }
+  .text-after {
+    width: 100px;
+    text-align: left;
+  }
+}
+@media (min-width: 1000px) {
+  .text-before {
+    font-size: 80px;
+    width: 100px;
+  }
+  .text-after {
+    font-size: 80px;
+    width: 200px;
+  }
+  .icon {
+    width: 380px;
+    height: 300px;
+  }
+  .icon-svg {
+    width: 200px;
+    height: 200px;
+  }
+  @keyframes pulse {
+    0%, 100% {
+      width: 200px;
+      height: 200px;
+    }
+    40% {
+      width: 250px;
+      height: 250px;
+    }
+    80% {
+      width: 300px;
+      height: 300px;
+    }
+  }
+}
+/* Global styles */
+body {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+}
+/* Brak wsparcia dla Edge, Firefox, Opera Mini, Firefox Mobile, IE Mobile */
+/* caniuse.com - https://caniuse.com/#search=scrollbar */
+body::-webkit-scrollbar {
+  width: 8px;
+}
+body::-webkit-scrollbar-track {
+  background-color: #fc3c3c;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #212121;
+}
+header, nav, main, section, footer, article, aside, details, figcaption, figure, summary {
+  display: block;
+}
+h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+footer {
+  background: #121212;
+  padding: 15px 0;
+  letter-spacing: 1px;
+}
+footer p, footer p a {
+  font-size: 13px;
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 0;
+  text-align: center;
+}
+footer p a:hover {
+  opacity: 0.6;
+}
+main {
+  margin: 0 auto;
+  background: #212121;
+  height: 100vh;
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+main:before, main:after {
+  content: "";
+  position: absolute;
+  top: -50%;
+  width: 50%;
+  height: 200%;
+  background: #fc3c3c;
+  border-radius: 50%;
+}
+main:before {
+  left: -40%;
+}
+main:after {
+  right: -40%;
+}
+
+
