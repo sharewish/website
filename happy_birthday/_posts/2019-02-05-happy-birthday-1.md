@@ -4,6 +4,7 @@ title: Happy Birthday
 description: Wishing you a very happy birthday
 image: /assets/images/d1/happy_birthday_1_thumb.jpg
 categories: happy_birthday
+removesitecss: true
 ---
 <link href="/assets/css/d1/bdy.css" rel="stylesheet" type="text/css">
 <link href="/assets/css/d1/setting.css" rel="stylesheet" type="text/css">
