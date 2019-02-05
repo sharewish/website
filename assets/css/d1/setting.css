@@ -1,6 +1,6 @@
 .set{ position: fixed; left: 0; bottom: 0; z-index: 99999; cursor: pointer;  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both; }
 .set2{ position: fixed; right: 0; bottom: 0; z-index: 99999; cursor: pointer;  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both; }
-.form-input{ width: 90%; border: 1px solid #ccc; padding: 10px 15px; margin-bottom: 15px;}
+.form-input{ width: 90%; border: 2px solid #ccc; padding: 10px 15px; margin-bottom: 15px;}
 .btn{ border: none; padding:0; margin-right: 1px; color: #fff;}
 .modal {
   display: none; /* Hidden by default */
@@ -41,11 +41,11 @@
 }
 @font-face {
     font-family: Aspire-DemiBold;
-    src: url(../fonts/Aspire-DemiBold.ttf);
+    src: url(/assets/fonts/Aspire-DemiBold.ttf);
 }
 @font-face {
     font-family: lv;
-    src: url(../fonts/lv.ttf);
+    src: url(/assets/fonts/lv.ttf);
 }
 .top{ position: absolute; top: 10px; z-index: 9999; width: 100%; text-align: center;}
 .top span{font-family: Aspire-DemiBold; font-size: 50px; color: #fff;}
