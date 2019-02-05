@@ -268,7 +268,7 @@ opacity:1
     width: 49.9%
 }
 .rosebackground {
-    background: url("../images/rose.png");
+    background: url("/assets/images/d1/rose.png");
     background-repeat: no-repeat;
     display: block;
     min-height: 480px;
@@ -291,14 +291,14 @@ opacity:1
     float: left;
 }
 .republic-day {
-    background: url(../images/body-bg.jpg) no-repeat center center fixed;
+    background: url(/assets/images/d1/body-bg.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 .tdy-day{
-     background: url(../images/tdy-day.jpg) no-repeat center center fixed;
+     background: url(/assets/images/d1/tdy-day.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -309,7 +309,7 @@ opacity:1
   flex-direction: column;
 }
 .hg-day-body{
-    background: url(../images/hug-day-body.jpg) no-repeat center center fixed;
+    background: url(/assets/images/d1/hug-day-body.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -324,7 +324,7 @@ opacity:1
     text-shadow: 0px 4px 4px #000;
 }
 .sky {
-    background: url(../images/morning-bg.gif) no-repeat top center fixed;
+    background: url(/assets/images/d1/morning-bg.gif) no-repeat top center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -938,7 +938,7 @@ transform:rotate(360deg);
     top: -90px;
 }
 .good-night {
-    background: url(../images/water.gif) no-repeat center center fixed;
+    background: url(/assets/images/d1/water.gif) no-repeat center center fixed;
     margin-top: 2em;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -950,7 +950,7 @@ transform:rotate(360deg);
     overflow: hidden;
 }
 .valen-bg {
-    background: url(../images/../images/valen-bg.gif) no-repeat center center fixed;
+    background: url(/assets/images/d1//assets/images/d1/valen-bg.gif) no-repeat center center fixed;
     margin-top: 2em;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1385,11 +1385,11 @@ background-position:10000px 0;
     display: block;
 }
 .stars {
-    background: #000 url(../images/stars.png) repeat top center;
+    background: #000 url(/assets/images/d1/stars.png) repeat top center;
     z-index: 0;
 }
 .twinkling {
-    background: transparent url(../images/twinkling.png) repeat top center;
+    background: transparent url(/assets/images/d1/twinkling.png) repeat top center;
     z-index: 1;
     -moz-animation: move-twink-back 200s linear infinite;
     -ms-animation: move-twink-back 200s linear infinite;
@@ -1398,7 +1398,7 @@ background-position:10000px 0;
     animation: move-twink-back 200s linear infinite;
 }
 .clouds {
-    background: transparent url(../images/clouds3.png) repeat top center;
+    background: transparent url(/assets/images/d1/clouds3.png) repeat top center;
     z-index: 3;
     -moz-animation: move-clouds-back 200s linear infinite;
     -ms-animation: move-clouds-back 200s linear infinite;
@@ -1514,7 +1514,7 @@ path {
 .kiss-day {
     margin: 0;
     padding: 0;
-    background: url(../images/kiss-day-bg.gif);
+    background: url(/assets/images/d1/kiss-day-bg.gif);
     overflow: hidden;
 }
 .container {
@@ -1621,7 +1621,7 @@ background-color: #f88;
     position: absolute;
     top: 25%;
     left: 43%;
-    background-image: url(../images/valin.png);
+    background-image: url(/assets/images/d1/valin.png);
     background-size: cover;
     animation: in 3s linear forwards, pulse .3s ease infinite;
     animation-delay: 10s;
@@ -1939,7 +1939,7 @@ text-shadow: 0 0 black;
     display: block;
     margin: 0;
 padding:0 overflow:hidden;
-    background-image: url("../images/hearth.png");
+    background-image: url("/assets/images/d1/hearth.png");
     color: #ffffff;
     -webkit-animation: 12s warp linear infinite;
     animation: 12s warp linear infinite;
@@ -2615,7 +2615,7 @@ svg g path {
 }
 .citynight2 {
     position: absolute;
-    background-image: url(../images/nyt-bg.png);
+    background-image: url(/assets/images/d1/nyt-bg.png);
     background-repeat: repeat-x;
     background-position: bottom;
     background-size: contain;
@@ -3481,10 +3481,10 @@ height: 50px
 .k-responsive{ position: absolute; bottom: 0;left: 40%; border-top-left-radius: 25px; border-top-right-radius: 25px;}
 
 .kd-2 {
-    background-image: url("../images/hw.png") !important;
+    background-image: url("/assets/images/d1/hw.png") !important;
 }
 .kd-3 {
-    background-image: url("../images/hearth.png") !important;
+    background-image: url("/assets/images/d1/hearth.png") !important;
 }
 
 
@@ -3574,14 +3574,14 @@ height: 50px
    -webkit-transform: rotate(0deg);
    -moz-transform: rotate(0deg); 
 }
-.td-body{background: url(../images/tdy-bg.png) repeat-x center center fixed; overflow-x: hidden;
+.td-body{background: url(/assets/images/d1/tdy-bg.png) repeat-x center center fixed; overflow-x: hidden;
     
     text-align:center;
     margin: 0 auto;
 
     /* Set the border and border image properties */
     border:30px solid transparent;
-    border-image:url(../images/border.png) 30 30 round;
+    border-image:url(/assets/images/d1/border.png) 30 30 round;
    }
 
 .td-txt span{
@@ -3590,14 +3590,14 @@ height: 50px
   text-decoration: #d33939 underline dotted !important;
 }
 
-.cho-body{background: url(../images/chocolate-bg.jpg) no-repeat center center fixed;
+.cho-body{background: url(/assets/images/d1/chocolate-bg.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover; overflow-x: hidden;
 }
 .pro-body{
-    background: url(../images/promise-bg.jpg) no-repeat center center fixed;
+    background: url(/assets/images/d1/promise-bg.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -3768,7 +3768,7 @@ height: 50px
           }
         .h {
     position: absolute;
-    background: url(../images/hug.png) no-repeat;
+    background: url(/assets/images/d1/hug.png) no-repeat;
     left: 38%;
     width: 300px;
     height: 450px;
@@ -3850,7 +3850,7 @@ height: 50px
       }
 .kd-name{ font-family: Aspire-DemiBold; font-size: 50px; color: #fff;}
 
-  .lv-body{ background: url(../images/lv-you-bg.jpg) no-repeat center center fixed;
+  .lv-body{ background: url(/assets/images/d1/lv-you-bg.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -4063,7 +4063,7 @@ height: 50px
   text-transform: uppercase;
   font-weight: 700; width: 100%;
   background-size: cover;
-  background-image: url(../images/flix.jpg);
+  background-image: url(/assets/images/d1/flix.jpg);
   -webkit-background-clip: text;
   animation: background-text-animation 15s linear infinite;
 }
@@ -4081,7 +4081,7 @@ height: 50px
 
 .centerss p{ font-family: Aspire-DemiBold; font-size: 50px; color: #fff;}
 .td-bg{
-      background: url(../images/tedy-bg.jpg) no-repeat center center fixed;
+      background: url(/assets/images/d1/tedy-bg.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
