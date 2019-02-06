@@ -371,12 +371,12 @@ body {
           transform-origin: bottom left;
 }
 #container #erose #the-glass #halo {
-  z-index: 99999;
+  z-index: 9;
   content: " ";
   display: block;
   position: absolute;
   -webkit-filter: blur(5px);
-          filter: blur(5px);
+  filter: blur(5px);
   opacity: 0.75;
   top: -1em;
   width: 6em;
@@ -390,9 +390,9 @@ body {
   background-color: #ffa97b;
   background: radial-gradient(ellipse at center, #ffa97b 0%, rgba(255, 169, 123, 0.25) 50%, rgba(255, 169, 123, 0.1) 60%, rgba(255, 169, 123, 0) 80%);
   -webkit-transform: translateZ(0);
-          transform: translateZ(0);
+  transform: translateZ(0);
   -webkit-animation: shiny 5s linear 0s infinite;
-          animation: shiny 5s linear 0s infinite;
+  animation: shiny 5s linear 0s infinite;
 }
 #container #erose p {
   text-align: center;
