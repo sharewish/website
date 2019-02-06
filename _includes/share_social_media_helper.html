@@ -85,7 +85,7 @@ function updateWhatsappShare(){
 		name = "ShareWish";
 	}
 
-  var url = window.location.protocol + "//"+window.location.host + "/"+window.location.pathname;
+  var url = window.location.protocol + "//"+window.location.host +window.location.pathname;
   var param = window.location.search;
   if(param === "" || param == undefined) {
     param = "n="+name;
