@@ -36,22 +36,14 @@
       jQuery.fn.shake = function() {
     this.each(function(i) {
         for (var x = 1; x <= 3; x++) {
-            $(this).animate({right : -25}, 10).animate({ right : 0 }, 50).animate({right : 25 }, 10).animate({right : 0}, 50);
+            $(this).animate({right : '2%'}, 10).animate({ right : '0%' }, 50).animate({right : '2%' }, 10).animate({right : '2%'}, 50);
         }
     });
     return this;
 }
-  jQuery.fn.shake1 = function() {
-    this.each(function(i) {
-        for (var x = 1; x <= 3; x++) {
-            $(this).animate({left : -25}, 10).animate({ left : 0 }, 50).animate({left : 25 }, 10).animate({left : 0}, 50);
-        }
-    });
-    return this;
-}
+  
 setInterval(function() {
     $('.set2').shake();
-    $('.set').shake1();
 }, 5000); 
     });
 
