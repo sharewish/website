@@ -117,7 +117,7 @@ function updateWhatsappShare(){
   url = url+"?"+param;
   var whatsAppLink = "whatsapp://send?text="+name+" wishes you👇👇👇👇‼️%0A "+url;
   $('#whatsappshare').attr('href',whatsAppLink);
-  $('#fbshare').attr('href',"https://www.facebook.com/sharer/sharer.php?u="+url);
+  $('#fbshare').attr('href',"https://www.facebook.com/sharer/sharer.php?u="+window.location);
   	
   }
  </script>
