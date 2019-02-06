@@ -4,18 +4,21 @@
     <form class="form" method="get" style="text-align: center;">
       <input type="text" name ="n" class="form-input" placeholder="Enter Your Name" required>
       <button class="btn"><img src="/assets/images/d1/button_preview.png"></button>
-      <a href="#"><img src="/assets/images/d1/whatsapp_share.jpg"></a> <a href="#"><img src="/assets/images/d1/facebook_share.jpg"></a>
+      <a onclick="whatsappShare(); return true;"><img src="/assets/images/d1/whatsapp_share.jpg"></a> <a href="#"><img src="/assets/images/d1/facebook_share.jpg"></a>
     </form>
   </div>
 </div>
-<script> 
+{% include share_social_media_helper.html %}
+<script>
+  
 		   $(function() {
 			location.queryString = {};
 			location.search.substr(1).split("&").forEach(function (pair) {
 				if (pair === "") return;
-				var parts = pair.split("="); 
-                var sender = parts[1];
+				var sender = getAllUrlParams()["n"];
+        if(sender !== ""){
 				$(".sendername").html(sender.replace(/\+/g, ' '));
+      }
 			});
 			$("#myModal").hide();
 			$(".myBtn").click(function(){

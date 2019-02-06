@@ -17,13 +17,15 @@
       location.queryString = {};
       location.search.substr(1).split("?").forEach(function (pair) {
         if (pair === "") return;
-        pair = pair.replace("n=", "");
-        pair = pair.replace("r=", "");
-        var parts = pair.split("&");
-                 var sendername = parts[0];
+        
+        var sendername = getAllUrlParams()["n"];
+        if(sendername !== ""){
         $(".sendername").html(sendername.replace(/\+/g, ' '));
-                 var receivername = parts[1];
+        }
+        var receivername = getAllUrlParams()["r"];
+        if(receivername !== "") {
         $("#receivername").html(receivername.replace(/\+/g, ' '));
+      }
       });
       $("#myModal").hide();
       $(".myBtn").click(function(){
