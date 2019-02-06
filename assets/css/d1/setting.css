@@ -1,5 +1,16 @@
 .set{ position: fixed; left: 0; bottom: 0; z-index: 99999; cursor: pointer;  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both; }
-.set2{ position: fixed; right: 0; bottom: 0; z-index: 99999; cursor: pointer;  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both; }
+.set2{ position: fixed; right: 2%; bottom: 0; z-index: 99999; cursor: pointer;  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both; }
+.set2.myBtn {
+  color: #fff;
+  background: #c71515;
+  border: 0;
+  padding: 8px 40px;
+  width: 96%;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 15px;
+  border-radius: 13px;
+}
 .form-input{ width: 90%; border: 2px solid #ccc; padding: 10px 15px; margin-bottom: 15px;}
 .btn{ border: none; padding:0; margin-right: 1px; color: #fff;}
 .modal {
@@ -65,4 +76,8 @@
 
 .top5{ position: absolute; top: 10%; z-index: 9999; width: 100%; text-align: center;}
 .top5 span{font-family: Aspire-DemiBold; font-size: 50px; color: #fff;}
+
+body{
+  padding-bottom: 50px !important;
+}
 

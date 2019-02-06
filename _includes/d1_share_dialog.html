@@ -1,4 +1,3 @@
-<img src="/assets/images/d1/setting.png" class="set myBtn">
 <div id="myModal" class="modal"> 
   <div class="modal-content"> <span class="close"><img src="/assets/images/d1/ic_close.png"/></span>
     <form class="form" method="get" style="text-align: center;">
@@ -29,11 +28,11 @@
 		jQuery.fn.shake = function() {
     this.each(function(i) {
         for (var x = 1; x <= 3; x++) {
-            $(this).animate({right : -25}, 10).animate({ right : 0 }, 50).animate({right : 25 }, 10).animate({right : 0}, 50);
+            $(this).animate({right : '2%'}, 10).animate({ right : '0%' }, 50).animate({right : '2%' }, 10).animate({right : '2%'}, 50);
         }
     });
     return this;
-}
+} 
 	jQuery.fn.shake1 = function() {
     this.each(function(i) {
         for (var x = 1; x <= 3; x++) {
@@ -49,4 +48,4 @@ setInterval(function() {
 		});
 
 </script> 
-<img src="/assets/images/d1/setting.png" class="set2 myBtn">
+<button class="set2 myBtn" style ="">Customise with your name</button>
