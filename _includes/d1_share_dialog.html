@@ -33,19 +33,10 @@
     });
     return this;
 } 
-	jQuery.fn.shake1 = function() {
-    this.each(function(i) {
-        for (var x = 1; x <= 3; x++) {
-            $(this).animate({left : -25}, 10).animate({ left : 0 }, 50).animate({left : 25 }, 10).animate({left : 0}, 50);
-        }
-    });
-    return this;
-}
-setInterval(function() {
+	setInterval(function() {
     $('.set2').shake();
-    $('.set').shake1();
 }, 5000); 
 		});
 
 </script> 
-<button class="set2 myBtn" style ="">Customise with your name</button>
+<button class="set2 myBtn" style =""> 👉   Customise with your name   👈 </button>

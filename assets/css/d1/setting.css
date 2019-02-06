@@ -4,11 +4,11 @@
   color: #fff;
   background: #c71515;
   border: 0;
-  padding: 8px 40px;
+  padding: 12px 40px;
   width: 96%;
   text-transform: capitalize;
   font-weight: 700;
-  font-size: 15px;
+  font-size: 18px;
   border-radius: 13px;
 }
 .form-input{ width: 90%; border: 2px solid #ccc; padding: 10px 15px; margin-bottom: 15px;}
