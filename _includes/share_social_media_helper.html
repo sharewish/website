@@ -85,7 +85,7 @@ function updateWhatsappShare(){
 		name = "ShareWish";
 	}
 
-  var url = window.location.protocol + window.location.host + window.location.pathname;
+  var url = window.location.protocol + "//"+window.location.host + "/"+window.location.pathname;
   var param = window.location.search;
   if(param === "" || param == undefined) {
     param = "n="+name;
@@ -118,6 +118,6 @@ function updateWhatsappShare(){
   var whatsAppLink = "whatsapp://send?text="+name+" wishes you👇👇👇👇‼️%0A "+url;
   $('#whatsappshare').attr('href',whatsAppLink);
   $('#fbshare').attr('href',"https://www.facebook.com/sharer/sharer.php?u="+window.location);
-  	
+  	$('#sharewishhome').attr('href',window.location.protocol + "//"+window.location.host);
   }
  </script>
