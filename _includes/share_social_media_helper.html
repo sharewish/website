@@ -70,9 +70,6 @@ function updateWhatsappShare(){
 		var name = "";
 		if(name === "" || name == undefined) {
 			var name = getAllUrlParams()["n"];
-			if(name === "" || name == undefined) {
- 			return;
- 		}
 	}
 	
 	var receiver = "";
@@ -81,12 +78,14 @@ function updateWhatsappShare(){
 		receiver = "";
 		if(receiver === "" || receiver == undefined) {
 			var receiver = getAllUrlParams()["r"];
-			if(receiver === "" || receiver == undefined) {
- 		}
 	  }
 	}
-
+	if(name === "" || name == undefined) {
+		name = "ShareWish";
+	}
 	var whatsAppLink = "whatsapp://send?text="+name+" wishes you👇👇👇👇‼️%0A "+window.location;
-	$('#whatsappshare').attr('href',whatsAppLink);			
+	$('#whatsappshare').attr('href',whatsAppLink);
+  $('#fbshare').attr('href',"https://www.facebook.com/sharer/sharer.php?u="+window.location);
+  	
   }
  </script>
