@@ -950,7 +950,7 @@ transform:rotate(360deg);
     overflow: hidden;
 }
 .valen-bg {
-    background: url(/assets/images/d1//assets/images/d1/valen-bg.gif) no-repeat center center fixed;
+    background: url(/assets/images/d1/valen-bg.gif) no-repeat center center fixed;
     margin-top: 2em;
     -webkit-background-size: cover;
     -moz-background-size: cover;
