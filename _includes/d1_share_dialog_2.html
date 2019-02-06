@@ -20,11 +20,11 @@
         
         var sendername = getAllUrlParams()["n"];
         if(sendername !== "" && sendername != undefined){
-        $(".sendername").html(sendername.replace(/\+/g, ' '));
+        $(".sendername").html(decodeURIComponent(sendername.replace(/\+/g, ' ')));
         }
         var receivername = getAllUrlParams()["r"];
         if(receivername !== "" && receivername != undefined) {
-        $("#receivername").html(receivername.replace(/\+/g, ' '));
+        $("#receivername").html(decodeURIComponent(receivername.replace(/\+/g, ' ')));
       }
       
       $("#myModal").hide();

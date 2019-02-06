@@ -15,7 +15,7 @@
       updateWhatsappShare();
 				var sender = getAllUrlParams()["n"];
         if(sender !== "" && sender != undefined){
-				$(".sendername").html(sender.replace(/\+/g, ' '));
+				$(".sendername").html(decodeURIComponent(sender.replace(/\+/g, ' ')));
         }
 			
 			$("#myModal").hide();

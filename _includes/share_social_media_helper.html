@@ -65,8 +65,9 @@ function getAllUrlParams(url) {
 
   return obj;
 }
+
 function updateWhatsappShare(){
-	// var name = $( "input[name='n']" ).val();
+	var name = $( "input[name='n']" ).val();
 		var name = "";
 		if(name === "" || name == undefined) {
 			var name = getAllUrlParams()["n"];
@@ -83,9 +84,40 @@ function updateWhatsappShare(){
 	if(name === "" || name == undefined) {
 		name = "ShareWish";
 	}
-	var whatsAppLink = "whatsapp://send?text="+name+" wishes you👇👇👇👇‼️%0A "+window.location;
-	$('#whatsappshare').attr('href',whatsAppLink);
-  $('#fbshare').attr('href',"https://www.facebook.com/sharer/sharer.php?u="+window.location);
+
+  var url = window.location.protocol + window.location.host + window.location.pathname;
+  var param = window.location.search;
+  if(param === "" || param == undefined) {
+    param = "n="+name;
+  } else {
+    param = param.split("?");
+    if(param === "" || param == undefined) {
+      param = "n="+name;
+    } else {
+        if(param.length > 0){
+          param = param[1];
+          
+          var params = param.split("&");
+          param = "";
+           for (var i=0; i<params.length; i++){
+            console.log("kevalue pair are "+params[i]);
+            var keyValue = params[i].split("=");
+
+            if(keyValue.length > 0){
+              param = keyValue[0]+"="+encodeURIComponent(keyValue[1])+"&";
+            }
+           }
+        }
+    }
+  }
+  if(param === "" || param == undefined) {
+      param = "n="+name;
+  }
+  
+  url = url+"?"+param;
+  var whatsAppLink = "whatsapp://send?text="+name+" wishes you👇👇👇👇‼️%0A "+url;
+  $('#whatsappshare').attr('href',whatsAppLink);
+  $('#fbshare').attr('href',"https://www.facebook.com/sharer/sharer.php?u="+url);
   	
   }
  </script>
