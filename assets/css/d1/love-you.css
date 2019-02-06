@@ -3,7 +3,7 @@
     font-family: Aspire-DemiBold;
     src: url(../fonts/Aspire-DemiBold.ttf);
 }
-.l-txt{ position: absolute; text-align: center; width: 100%; bottom: 10%; color: #fff;  font-family: Aspire-DemiBold; font-size: 50px;}
+.l-txt{ position: absolute; text-align: center; width: 100%; bottom: 10%; color: #fff;  font-family: Aspire-DemiBold; font-size: 40px;}
 .content {
   text-align: center;
   width: 95%;
