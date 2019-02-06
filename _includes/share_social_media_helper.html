@@ -65,13 +65,12 @@ function getAllUrlParams(url) {
 
   return obj;
 }
-function whatsappShare(){
+function updateWhatsappShare(){
 	// var name = $( "input[name='n']" ).val();
 		var name = "";
 		if(name === "" || name == undefined) {
 			var name = getAllUrlParams()["n"];
 			if(name === "" || name == undefined) {
-    	 	alert("Please Enter Name");
  			return;
  		}
 	}
@@ -83,13 +82,11 @@ function whatsappShare(){
 		if(receiver === "" || receiver == undefined) {
 			var receiver = getAllUrlParams()["r"];
 			if(receiver === "" || receiver == undefined) {
-    	 	alert("Please Enter Receiver Name");
- 			return;
  		}
 	  }
 	}
 
-	window.open("whatsapp://send?text="+name+" wishes you👇👇👇👇‼️%0A "+window.location);
-
+	var whatsAppLink = "whatsapp://send?text="+name+" wishes you👇👇👇👇‼️%0A "+window.location;
+	$('#whatsappshare').attr('href',whatsAppLink);			
   }
  </script>
