@@ -287,9 +287,9 @@ cite {
     overflow: hidden;
 }
 span {
-    display: inline-block;
-    transition: transform 2s, opacity 1s ease;
-    opacity: 0;
+	display: inline-block;
+	transition: transform 2s, opacity 1s ease;
+	opacity: 1;
 }
 h1.active span {
     transform: translateY(0) !important;
