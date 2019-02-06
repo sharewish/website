@@ -11,6 +11,4 @@ category:    good_morning
 categorytitle:    Good Morning
 start:    1
 end:    6
-next:    true
-nextPageAddr:    /good_morning/page2
 ---
