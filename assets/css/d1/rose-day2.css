@@ -541,7 +541,7 @@ body {
 .rose-day-text{ position: absolute; bottom: 5%;font-family: Roboto-Regular; width: 95%; font-size: 18px; text-align: center; color: #fff;}
 @font-face {
     font-family: Roboto-Regular;
-    src: url(../fonts/Roboto-Regular.ttf);
+    src: url(/assets/fonts/Roboto-Regular.ttf);
 }
 
 
@@ -567,7 +567,7 @@ body {
     display: block;
     margin: 0;
 padding:0 overflow:hidden;
-    background-image: url("../images/hearth.png");
+    background-image: url("/assets/images/d1/hearth.png");
     color: #ffffff;
     -webkit-animation: 12s warp linear infinite;
     animation: 12s warp linear infinite;
@@ -639,7 +639,7 @@ transform:rotate(60deg) translateZ(300px);
 .k-responsive{ position: absolute; bottom: 0;left: 40%; border-top-left-radius: 25px; border-top-right-radius: 25px;}
 
 .kd-2 {
-    background-image: url("../images/hw.png") !important;
+    background-image: url("/assets/images/d1/hw.png") !important;
 }
 
 
