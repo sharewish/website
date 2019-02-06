@@ -263,11 +263,11 @@
 }
 @font-face {
     font-family: Roboto-Regular;
-    src: url(../fonts/Roboto-Regular.ttf);
+    src: url(/assets/fonts/Roboto-Regular.ttf);
 }
 @font-face {
     font-family: Aspire-DemiBold;
-    src: url(../fonts/Aspire-DemiBold.ttf);
+    src: url(/assets/fonts/Aspire-DemiBold.ttf);
 }
 @media screen and (max-width:43em) {h1 span{ font-size: 3em !important;}}
 h1 {
