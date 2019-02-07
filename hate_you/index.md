@@ -8,7 +8,10 @@ author: null
 show_tile: false
 share_icons: true
 category:    hate_you
-categorytitle:    Hate You
+title:    Hate you Wishes
+categorytitle:    Hate you
+description:    Send amazing Hate you e-greetings customised with your name
+ogimage:    /assets/images/categories/hate_you.png
 start:    1
 end:    6
 ---
