@@ -11,7 +11,7 @@ category:    teddy_day
 title:    Teddy Day Wishes
 categorytitle:    Teddy Day
 description:    Send amazing Teddy Day e-greetings customised with your name
-ogimage:    /assets/images/categories/teddy_day.png
+ogimage:    /assets/images/categories/teddy_day.jpg
 start:    1
 end:    6
 ---

@@ -11,7 +11,7 @@ category:    promise_day
 title:    Promise Day Wishes
 categorytitle:    Promise Day
 description:    Send amazing Promise Day e-greetings customised with your name
-ogimage:    /assets/images/categories/promise_day.png
+ogimage:    /assets/images/categories/promise_day.jpg
 start:    1
 end:    6
 ---

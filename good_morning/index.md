@@ -11,7 +11,7 @@ category:    good_morning
 title:    Good Morning Wishes
 categorytitle:    Good Morning
 description:    Send amazing Good Morning e-greetings customised with your name
-ogimage:    /assets/images/categories/good_morning.png
+ogimage:    /assets/images/categories/good_morning.jpg
 start:    1
 end:    6
 ---

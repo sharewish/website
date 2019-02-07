@@ -11,7 +11,7 @@ category:    good_night
 title:    Good Night Wishes
 categorytitle:    Good Night
 description:    Send amazing Good Night e-greetings customised with your name
-ogimage:    /assets/images/categories/good_night.png
+ogimage:    /assets/images/categories/good_night.jpg
 start:    1
 end:    6
 ---

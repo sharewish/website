@@ -11,7 +11,7 @@ category:    kiss_day
 title:    Kiss Day Wishes
 categorytitle:    Kiss Day
 description:    Send amazing Kiss Day e-greetings customised with your name
-ogimage:    /assets/images/categories/kiss_day.png
+ogimage:    /assets/images/categories/kiss_day.jpg
 start:    1
 end:    6
 ---

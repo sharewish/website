@@ -11,7 +11,7 @@ category:    hate_you
 title:    Hate you Wishes
 categorytitle:    Hate you
 description:    Send amazing Hate you e-greetings customised with your name
-ogimage:    /assets/images/categories/hate_you.png
+ogimage:    /assets/images/categories/hate_you.jpg
 start:    1
 end:    6
 ---

@@ -11,7 +11,7 @@ category:    propose_day
 title:    Propose Day Wishes
 categorytitle:    Propose Day
 description:    Send amazing Propose Day e-greetings customised with your name
-ogimage:    /assets/images/categories/propose_day.png
+ogimage:    /assets/images/categories/propose_day.jpg
 start:    1
 end:    6
 ---
