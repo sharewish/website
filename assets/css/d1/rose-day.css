@@ -629,7 +629,17 @@
   opacity:0;
   margin:0 auto;
 }
-.rht{ position: absolute; background: #fff; color: #052c3a; bottom: 20%; left:35%; padding: 15px 25px; border-radius: 25px; z-index: 999; font-size: 50px;}
+.rht {
+  position: absolute;
+  background: #fff;
+  color: #052c3a;
+  bottom: 15%;
+  left: 39%;
+  padding: 15px 25px;
+  border-radius: 25px;
+  z-index: 999;
+  font-size: 50px;
+}
 
 @font-face {
     font-family: Aspire-DemiBold;
