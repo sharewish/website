@@ -6,7 +6,9 @@
     </span> -->
     <header class="major">
       <h3>
-        {% if tile.url %}
+        {% if tile.aurl %}
+        <a href="{{ tile.aurl }}" class="link">{{ tile.title }}</a>
+        {% elsif tile.url %}
         <a href="{{ tile.url  | relative_url }}index.html" class="link">{{ tile.title }}</a>
          {% else %}
          <a href="" class="link">{{ tile.title }}</a>
