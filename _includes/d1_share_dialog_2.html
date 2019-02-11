@@ -3,8 +3,8 @@
   <!-- Modal content -->
   <div class="modal-content"> <span class="close"><img src="/assets/images/d1/ic_close.png"/></span>
     <form class="form" method="get" style="text-align: center;">
-      <input type="text" name ="n" class="form-input" placeholder="Enter Your Name" required>
-      <input type="text" name ="r" class="form-input" placeholder="Enter Receiver Name" required>
+      <input type="text" id ="nName" name ="n" class="form-input" placeholder="Enter Your Name" required>
+      <input type="text" id ="rName" name ="r" class="form-input" placeholder="Enter Receiver Name" required>
       <button class="btn"><img src="/assets/images/d1/button_preview.png"></button>
       <a id="whatsappshare" href="#"><img src="/assets/images/d1/whatsapp_share.jpg"></a> <a id="fbshare" href="#"><img src="/assets/images/d1/facebook_share.jpg"></a>
       <a id="sharewishhome" href="#"><img src="/assets/images/d1/button_sharewish_more.jpg"></a>
@@ -20,11 +20,15 @@
         
         var sendername = getAllUrlParams()["n"];
         if(sendername !== "" && sendername != undefined){
-        $(".sendername").html(decodeURIComponent(sendername.replace(/\+/g, ' ')));
+          sendername = decodeURIComponent(sendername.replace(/\+/g, ' '));
+        $(".sendername").html(sendername);
+        $("#nName").val(sendername);
         }
         var receivername = getAllUrlParams()["r"];
         if(receivername !== "" && receivername != undefined) {
-        $("#receivername").html(decodeURIComponent(receivername.replace(/\+/g, ' ')));
+          receivername = decodeURIComponent(receivername.replace(/\+/g, ' '));
+        $("#receivername").html(receivername);
+        $("#rName").val(receivername);
       }
       
       $("#myModal").hide();

@@ -1,7 +1,7 @@
 <div id="myModal" class="modal"> 
   <div class="modal-content"> <span class="close"><img src="/assets/images/d1/ic_close.png"/></span>
     <form class="form" method="get" style="text-align: center;">
-      <input type="text" name ="n" class="form-input" placeholder="Enter Your Name" required>
+      <input type="text" id ="nName" name ="n" class="form-input" placeholder="Enter Your Name" required>
       <button class="btn"><img src="/assets/images/d1/button_preview.png"></button>
       <a id="whatsappshare" href="#"><img src="/assets/images/d1/whatsapp_share.jpg"></a> <a id="fbshare" href="#"><img src="/assets/images/d1/facebook_share.jpg"></a>
       <a id="sharewishhome" href="#"><img src="/assets/images/d1/button_sharewish_more.jpg"></a>
@@ -16,7 +16,9 @@
       updateWhatsappShare();
 				var sender = getAllUrlParams()["n"];
         if(sender !== "" && sender != undefined){
-				$(".sendername").html(decodeURIComponent(sender.replace(/\+/g, ' ')));
+        sender = decodeURIComponent(sender.replace(/\+/g, ' '));
+				$(".sendername").html(sender);
+        $("#nName").val(sender);
         }
 			
 			$("#myModal").hide();
