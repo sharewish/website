@@ -81,4 +81,7 @@
 body{
   padding-bottom: 50px !important;
 }
+.sendername, #receivername {
+  text-transform: capitalize;
+}
 
