@@ -1,8 +1,6 @@
 ---
 layout: category
-title: Home
 landing-title: null
-description: null
 image: null
 author: null
 show_tile: false
@@ -14,4 +12,6 @@ description:    Send amazing Love You e-greetings customised with your name
 ogimage:    /assets/images/categories/love_you.jpg
 start:    1
 end:    6
+next:    true
+nextPageAddr:    /love_you/page2
 ---

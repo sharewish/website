@@ -1,17 +1,3 @@
-- title: 7th Feb - Rose Day 🌷
-  url: /rose_day/
-  image: /img/
-  description: Happy Rose Day dear love
-
-- title: 8th Feb - Propose Day 👱🙏👩
-  url: /propose_day/
-  image: /img/
-  description: Propose them every year
-
-- title: 9th Feb - Chocolate Day 🍫
-  url: /chocolate_day/
-  image: /img/
-  description: For Your chocolaty sweet partner
 
 - title: 10 Feb - Teddy Day 🐼
   url: /teddy_day/
@@ -64,8 +50,8 @@
   description: Make the night full of dreams with sweet wishes
 
 
-- title: Miss You ❣️ (Coming Soon)
-  url: 
+- title: Miss You ❣️
+  url: /miss_you/
   image: /img/
   description: Never keep inside when you miss them
 
@@ -93,4 +79,19 @@
   aurl: https://goo.gl/forms/sslqTfVCdRQjzshG2
   image: /img/
   description: Get latest wishes in your email/message
+
+# - title: 7th Feb - Rose Day 🌷
+#   url: /rose_day/
+#   image: /img/
+#   description: Happy Rose Day dear love
+
+# - title: 8th Feb - Propose Day 👱🙏👩
+#   url: /propose_day/
+#   image: /img/
+#   description: Propose them every year
+
+# - title: 9th Feb - Chocolate Day 🍫
+#   url: /chocolate_day/
+#   image: /img/
+#   description: For Your chocolaty sweet partner
 
