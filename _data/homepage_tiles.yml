@@ -1,9 +1,3 @@
-
-- title: 11 Feb - Promise Day 🤝
-  url: /promise_day/
-  image: /img/
-  description: Always fulfil promises
-
 - title: 12 Feb - Hug Day 👱🤗👩
   url: /hug_day/
   image: /img/
@@ -95,3 +89,8 @@
 #   image: /img/
 #   description: Keep them on your bed side
 
+
+# - title: 11 Feb - Promise Day 🤝
+#   url: /promise_day/
+#   image: /img/
+#   description: Always fulfil promises
