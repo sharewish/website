@@ -1,9 +1,3 @@
-
-- title: 14 Feb - VALENTINE'S Day 👸🤴
-  url: /valentine_day/
-  image: /img/
-  description: There is only one happiness in life - to love and be loved
-
 - title: Good Morning 🤗
   url: /good_morning/
   image: /assets/images/good_morning/home.jpeg
@@ -95,3 +89,9 @@
 #   url: /kiss_day/
 #   image: /img/
 #   description: Just go for it
+
+
+# - title: 14 Feb - VALENTINE'S Day 👸🤴
+#   url: /valentine_day/
+#   image: /img/
+#   description: There is only one happiness in life - to love and be loved

@@ -10,10 +10,10 @@ title:    Love You Wishes
 categorytitle:    Love You
 description:    Send amazing Love You e-greetings customised with your name
 ogimage:    /assets/images/categories/love_you.jpg
-start:    6
-end:    11
+start:    11
+end:    16
 previous:    true
-previousPageAddr:    /love_you/
+previousPageAddr:    /love_you/page2
 next:    true
-nextPageAddr:    /love_you/page3
+nextPageAddr:    /love_you/page4
 ---
