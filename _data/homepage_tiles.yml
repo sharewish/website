@@ -1,7 +1,3 @@
-- title: 13 Feb - Kiss Day 💏
-  url: /kiss_day/
-  image: /img/
-  description: Just go for it
 
 - title: 14 Feb - VALENTINE'S Day 👸🤴
   url: /valentine_day/
@@ -94,3 +90,8 @@
 #   url: /hug_day/
 #   image: /img/
 #   description: Who does not like hugs
+
+# - title: 13 Feb - Kiss Day 💏
+#   url: /kiss_day/
+#   image: /img/
+#   description: Just go for it
