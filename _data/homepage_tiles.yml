@@ -1,9 +1,4 @@
 
-- title: 10 Feb - Teddy Day 🐼
-  url: /teddy_day/
-  image: /img/
-  description: Keep them on your bed side
-
 - title: 11 Feb - Promise Day 🤝
   url: /promise_day/
   image: /img/
@@ -94,4 +89,9 @@
 #   url: /chocolate_day/
 #   image: /img/
 #   description: For Your chocolaty sweet partner
+
+# - title: 10 Feb - Teddy Day 🐼
+#   url: /teddy_day/
+#   image: /img/
+#   description: Keep them on your bed side
 
