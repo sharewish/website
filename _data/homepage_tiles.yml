@@ -1,3 +1,8 @@
+- title: Maha Shivratri 🕉️
+  url: /shivratri/
+  image: /img/
+  description: Har Har Mahadev 
+  
 - title: Good Morning 🤗
   url: /good_morning/
   image: /assets/images/good_morning/home.jpeg
@@ -33,11 +38,6 @@
   url: 
   image: /img/
   description: Tell your bestie how much they mean to you
-
-- title: Maha Shivratri 🕉️
-  url: /shivratri/
-  image: /img/
-  description: Har Har Mahadev 
 
 - title: Happy Holi 🍭 (Coming Soon)
   url: 
