@@ -1,0 +1,230 @@
+@font-face {
+    font-family: Aspire-DemiBold;
+    src: url(/assets/fonts/Aspire-DemiBold.ttf);
+}
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(/assets/fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: kr;
+    src: url(/assets/fonts/KR.ttf);
+}
+@font-face {
+    font-family: nyt;
+    src: url(/assets/fonts/nyt.ttf);
+}
+@font-face {
+    font-family: lv;
+    src: url(/assets/fonts/lv.ttf);
+}
+@font-face {
+    font-family: td;
+    src: url(/assets/fonts/td.TTF);
+}
+@font-face {
+    font-family: holi;
+    src: url(/assets/fonts/holi.TTF);
+}
+html {
+    font: 5vmin/1.3 Serif;
+    overflow: hidden;
+    background: #123;
+}
+.counter{ position: absolute; z-index: 9999; width: 100%; bottom: 15%; text-align: center;}
+.counter span{ color: #fff; font-family: Roboto-Regular; font-size: 30px;}
+body, head {
+    display: block;
+    color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+head::before, head::after, body::before, body::after {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 3em;
+    height: 3em;
+    content: '.';
+    mix-blend-mode: screen;
+    animation: 44s -27s move infinite ease-in-out alternate;
+}
+body::before {
+    text-shadow: -0.0949465614em 0.1763327619em 7px rgba(125, 0, 255, 0.9), -0.3702098627em 0.8215965948em 7px rgba(188, 255, 0, 0.9), 2.2071060322em 0.0853495108em 7px rgba(152, 255, 0, 0.9), 0.8309550121em 0.955212911em 7px rgba(0, 255, 33, 0.9), 1.2239911896em 2.2250060211em 7px rgba(255, 221, 0, 0.9), 0.2946727909em 1.1557287091em 7px rgba(0, 255, 2, 0.9), 1.2797321534em 0.2112016523em 7px rgba(0, 255, 155, 0.9), 1.6801649334em -0.0579971103em 7px rgba(255, 201, 0, 0.9), 1.017375157em -0.0609803745em 7px rgba(99, 0, 255, 0.9), -0.3259491854em 0.5133275753em 7px rgba(0, 94, 255, 0.9), -0.346744743em 0.2798139813em 7px rgba(255, 171, 0, 0.9), 0.7403480402em -0.4276936944em 7px rgba(255, 20, 0, 0.9), 0.4670834775em 0.2968479979em 7px rgba(0, 10, 255, 0.9), 1.5999838869em 1.6621655702em 7px rgba(0, 78, 255, 0.9), 2.4745309344em 1.8315174446em 7px rgba(255, 13, 0, 0.9), 1.0878229988em 2.3122339526em 7px rgba(0, 77, 255, 0.9), -0.0118523085em -0.1109723675em 7px rgba(208, 255, 0, 0.9), 0.8928050449em 1.2971564652em 7px rgba(0, 255, 116, 0.9), 2.400940941em 0.4785955577em 7px rgba(186, 255, 0, 0.9), 0.6029559042em -0.2344336944em 7px rgba(231, 0, 255, 0.9), 1.9301722705em -0.0828866722em 7px rgba(255, 0, 212, 0.9), 0.5556589332em -0.3592982148em 7px rgba(255, 0, 222, 0.9), 1.7849904651em 1.0667470352em 7px rgba(255, 0, 227, 0.9), 1.5466830471em 0.8575518746em 7px rgba(255, 103, 0, 0.9), -0.472807661em 2.2083314353em 7px rgba(255, 37, 0, 0.9), 0.0796902838em 2.1808889469em 7px rgba(0, 51, 255, 0.9), 0.3171062812em 0.9560221709em 7px rgba(0, 255, 120, 0.9), 1.0920089793em 1.6666409983em 7px rgba(199, 255, 0, 0.9), 2.1699092551em -0.3645865472em 7px rgba(49, 255, 0, 0.9), -0.4643573247em 1.302619987em 7px rgba(255, 0, 253, 0.9), 2.3300871309em 1.535512052em 7px rgba(255, 0, 1, 0.9), 0.6933685447em 2.2813790409em 7px rgba(115, 255, 0, 0.9), 0.1748479602em 1.3609210324em 7px rgba(115, 255, 0, 0.9), 0.268456656em 0.1298603087em 7px rgba(255, 0, 192, 0.9), -0.1354920723em 2.3164507692em 7px rgba(0, 255, 142, 0.9), -0.0291294155em 2.1599630276em 7px rgba(255, 193, 0, 0.9), -0.3161626816em 1.8017522055em 7px rgba(222, 255, 0, 0.9), 1.1265565463em 1.8978381703em 7px rgba(255, 0, 201, 0.9), 1.6965287012em -0.4113107914em 7px rgba(255, 0, 145, 0.9), -0.344560922em 1.5495695421em 7px rgba(139, 0, 255, 0.9), 1.186589037em 1.3794012863em 7px rgba(255, 0, 167, 0.9);
+    animation-duration: 44s;
+    animation-delay: -27s;
+}
+body::after {
+    text-shadow: 1.2206096467em 0.3786406311em 7px rgba(0, 255, 47, 0.9), -0.232800141em 0.2592443963em 7px rgba(85, 255, 0, 0.9), 0.289780591em 2.4017020594em 7px rgba(255, 122, 0, 0.9), 2.3300950332em 0.5083312127em 7px rgba(0, 255, 81, 0.9), 2.0134242395em -0.0526591785em 7px rgba(68, 0, 255, 0.9), 1.3661278854em 1.7476026125em 7px rgba(0, 255, 244, 0.9), -0.0037103552em 2.411187063em 7px rgba(114, 255, 0, 0.9), 1.0342632793em 2.0278825707em 7px rgba(0, 255, 157, 0.9), 1.0183445906em 2.0579008669em 7px rgba(255, 151, 0, 0.9), 2.355983354em 1.2782077107em 7px rgba(255, 0, 195, 0.9), 2.4035719686em 0.1021674075em 7px rgba(0, 255, 24, 0.9), 1.8110787413em -0.0072186669em 7px rgba(255, 239, 0, 0.9), -0.4436320174em 1.002863151em 7px rgba(81, 0, 255, 0.9), 0.7341901386em 1.5956280561em 7px rgba(0, 255, 188, 0.9), 0.7838096206em -0.017471757em 7px rgba(0, 242, 255, 0.9), -0.0467671411em 2.4031374349em 7px rgba(255, 18, 0, 0.9), -0.4991486644em 0.0015023153em 7px rgba(221, 0, 255, 0.9), 1.6724423471em 0.7913092256em 7px rgba(0, 255, 99, 0.9), 0.4808093452em 0.5356381947em 7px rgba(39, 0, 255, 0.9), 2.3204582872em -0.1474961919em 7px rgba(44, 0, 255, 0.9), 2.4411786525em 0.8773690487em 7px rgba(255, 123, 0, 0.9), 2.4504945217em 2.2480425624em 7px rgba(255, 0, 155, 0.9), -0.4260056568em 2.0447905098em 7px rgba(255, 0, 243, 0.9), 2.108565401em 1.9198831394em 7px rgba(27, 0, 255, 0.9), -0.0252845775em 1.749263888em 7px rgba(132, 0, 255, 0.9), 0.2985695177em 2.0736818243em 7px rgba(195, 255, 0, 0.9), 2.4115460478em 0.9484478631em 7px rgba(0, 255, 174, 0.9), 0.8758759916em 1.8972020092em 7px rgba(229, 255, 0, 0.9), 0.2102948452em 2.2625055762em 7px rgba(110, 255, 0, 0.9), 2.1958036576em 1.8940106235em 7px rgba(255, 119, 0, 0.9), -0.1467361118em -0.0428509648em 7px rgba(255, 213, 0, 0.9), 0.2603837539em 0.092172297em 7px rgba(255, 175, 0, 0.9), -0.1980383126em -0.1055638973em 7px rgba(0, 255, 32, 0.9), 1.1691114131em 1.1675823803em 7px rgba(255, 0, 176, 0.9), 2.409777992em 1.6337815028em 7px rgba(255, 193, 0, 0.9), -0.0353462896em 0.7277487052em 7px rgba(0, 255, 29, 0.9), 0.8078751606em 0.7587640525em 7px rgba(59, 255, 0, 0.9), 1.8074034096em -0.262728531em 7px rgba(0, 255, 55, 0.9), -0.2932357598em 2.4146888403em 7px rgba(255, 0, 169, 0.9), 1.8167577475em 1.9988673991em 7px rgba(0, 96, 255, 0.9), 0.5720860757em -0.131616733em 7px rgba(7, 255, 0, 0.9);
+    animation-duration: 43s;
+    animation-delay: -32s;
+}
+head::before {
+    text-shadow: 0.937494848em 1.7708023918em 7px rgba(255, 0, 5, 0.9), -0.132745964em 1.2903180612em 7px rgba(255, 108, 0, 0.9), 0.3453459919em 1.78226812em 7px rgba(0, 152, 255, 0.9), 2.0013535447em 0.5851046507em 7px rgba(255, 0, 101, 0.9), 0.5754907067em 1.5592468021em 7px rgba(0, 178, 255, 0.9), 1.150362559em 0.1157003669em 7px rgba(243, 255, 0, 0.9), 0.6542364432em 2.2856562715em 7px rgba(255, 235, 0, 0.9), 1.4446589002em -0.3778533781em 7px rgba(28, 0, 255, 0.9), 1.8394750633em 1.8757952985em 7px rgba(0, 255, 232, 0.9), 1.6787309463em 2.495977189em 7px rgba(255, 3, 0, 0.9), 1.1233333583em 1.6591142054em 7px rgba(255, 0, 4, 0.9), 2.0150499818em 0.8547313992em 7px rgba(255, 68, 0, 0.9), 2.3111682272em 0.8421817326em 7px rgba(0, 255, 181, 0.9), 1.9244849282em 0.9228445103em 7px rgba(73, 0, 255, 0.9), -0.3426270204em 0.889059863em 7px rgba(117, 0, 255, 0.9), 0.4271104107em 2.1241352116em 7px rgba(99, 0, 255, 0.9), 2.0215960568em 2.4224023723em 7px rgba(144, 255, 0, 0.9), 0.3188765392em 0.8694390264em 7px rgba(104, 0, 255, 0.9), 0.0810968093em 1.5682299901em 7px rgba(162, 255, 0, 0.9), 1.0133506078em -0.276126116em 7px rgba(255, 144, 0, 0.9), 2.2440442347em -0.2596104119em 7px rgba(255, 0, 31, 0.9), 2.2581572487em 0.4035036446em 7px rgba(255, 229, 0, 0.9), 1.9737877822em 1.4007648093em 7px rgba(255, 0, 231, 0.9), -0.0610208969em 0.7585819979em 7px rgba(0, 130, 255, 0.9), 0.7532605314em 0.8313876261em 7px rgba(255, 0, 215, 0.9), 0.2354253572em 2.2579556527em 7px rgba(255, 0, 98, 0.9), 0.6555690754em 0.6871297342em 7px rgba(255, 232, 0, 0.9), 0.2892475421em 0.4160436967em 7px rgba(23, 0, 255, 0.9), 0.2031516358em 2.0567645793em 7px rgba(0, 201, 255, 0.9), -0.2666866738em 1.9032796733em 7px rgba(255, 135, 0, 0.9), -0.4152482318em 1.0966356881em 7px rgba(255, 126, 0, 0.9), 0.6030667566em 0.4864721487em 7px rgba(0, 57, 255, 0.9), 0.5863357175em 0.0234051791em 7px rgba(121, 255, 0, 0.9), 0.0220812425em 1.4061238146em 7px rgba(255, 85, 0, 0.9), 1.6274462778em -0.2940689422em 7px rgba(0, 228, 255, 0.9), 1.7217889985em 1.7414866922em 7px rgba(150, 255, 0, 0.9), 0.1843815532em 1.3512287717em 7px rgba(255, 51, 0, 0.9), -0.3764653816em -0.03985217em 7px rgba(255, 169, 0, 0.9), 1.4438251375em -0.1904880356em 7px rgba(255, 205, 0, 0.9), 0.393319267em 0.7805768174em 7px rgba(241, 255, 0, 0.9), 1.9810349483em -0.3493139131em 7px rgba(255, 0, 225, 0.9);
+    animation-duration: 42s;
+    animation-delay: -23s;
+}
+head::after {
+    text-shadow: 2.1322635831em 0.2695538691em 7px rgba(255, 89, 0, 0.9), -0.4451567184em 1.4272349991em 7px rgba(255, 42, 0, 0.9), 1.0474956807em 0.9476513838em 7px rgba(0, 255, 96, 0.9), 2.2843822793em 2.1581268748em 7px rgba(0, 255, 191, 0.9), 1.1892594056em 1.9867577897em 7px rgba(255, 0, 74, 0.9), 1.7375322194em 0.9188453167em 7px rgba(96, 255, 0, 0.9), 1.0907471695em 1.9527556159em 7px rgba(0, 255, 24, 0.9), 1.9490040157em -0.1304669811em 7px rgba(21, 255, 0, 0.9), -0.2846256182em 1.1183070751em 7px rgba(172, 0, 255, 0.9), 1.3579941975em 2.0285752183em 7px rgba(255, 31, 0, 0.9), 0.8245115693em -0.2314700686em 7px rgba(255, 0, 153, 0.9), 0.1389206483em 1.6723128147em 7px rgba(0, 180, 255, 0.9), 1.5419290447em -0.4817343381em 7px rgba(255, 0, 234, 0.9), 2.2472647838em 1.8608712132em 7px rgba(0, 255, 151, 0.9), 1.8103283458em 1.8145880885em 7px rgba(88, 255, 0, 0.9), 0.1602249322em 1.8723888192em 7px rgba(16, 255, 0, 0.9), 2.4893830138em 1.7738090642em 7px rgba(9, 255, 0, 0.9), 1.5226912713em 1.8391265792em 7px rgba(255, 0, 174, 0.9), 1.7278316521em 1.9331859511em 7px rgba(0, 223, 255, 0.9), 2.0738815779em 0.5190664284em 7px rgba(0, 255, 81, 0.9), -0.3223086287em 0.5658655314em 7px rgba(255, 0, 188, 0.9), 1.9900893242em 0.6514509973em 7px rgba(0, 255, 55, 0.9), -0.4164403117em 0.9567796534em 7px rgba(0, 255, 98, 0.9), 1.8153571302em 2.3996827064em 7px rgba(43, 255, 0, 0.9), 0.4283934713em 0.6591917655em 7px rgba(192, 0, 255, 0.9), 0.8874212769em 0.9392539351em 7px rgba(0, 255, 55, 0.9), 1.7041641247em 1.6661087398em 7px rgba(161, 0, 255, 0.9), 1.4311788202em 1.1551660211em 7px rgba(181, 0, 255, 0.9), -0.4512462107em 1.6194602855em 7px rgba(18, 255, 0, 0.9), 1.9838487748em 1.5491234812em 7px rgba(0, 255, 6, 0.9), 0.2895277977em 1.3219472191em 7px rgba(255, 0, 226, 0.9), 1.4546147953em 2.2867380101em 7px rgba(0, 226, 255, 0.9), -0.2538582402em 0.4691083534em 7px rgba(255, 0, 171, 0.9), 2.364797709em 0.4296278809em 7px rgba(73, 255, 0, 0.9), -0.1841475328em 0.0320871675em 7px rgba(204, 255, 0, 0.9), -0.3916932929em 0.6031626343em 7px rgba(93, 0, 255, 0.9), 2.4136350804em -0.1799938968em 7px rgba(46, 0, 255, 0.9), 0.8142185488em 1.7066626332em 7px rgba(121, 255, 0, 0.9), -0.4029799562em 0.7198604476em 7px rgba(255, 0, 135, 0.9), -0.3014366803em 2.3614209904em 7px rgba(255, 0, 90, 0.9), 1.9109268685em 0.6820017123em 7px rgba(255, 0, 240, 0.9);
+    animation-duration: 41s;
+    animation-delay: -19s;
+}
+ @keyframes move {
+ from {
+ transform: rotate(0deg) scale(12) translateX(-20px);
+}
+ to {
+ transform: rotate(360deg) scale(18) translateX(20px);
+}
+}
+.color {
+    position: absolute;
+    top: 4.5em;
+}
+
+@media screen and (max-width:43em) {
+    
+    .write {
+    font-size: 40px !important;
+    }
+    #warpper{ width: 100% !important; position: relative; z-index: 99999;}
+    
+.color {
+    top: 7em !important;
+}
+#box {
+    margin-top: 15em;
+    padding: 1em 3em !important;
+}
+}
+#box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'holi';
+    font-size: 1.5rem;
+    margin-top: 14em;
+    padding: 15px 28px;
+}
+.gradient-border {
+ --borderWidth: 3px;
+    position: relative;
+    border-radius: var(--borderWidth);
+}
+.gradient-border:after {
+    content: '';
+    position: absolute;
+ top: calc(-1 * var(--borderWidth));
+ left: calc(-1 * var(--borderWidth));
+ height: calc(100% + var(--borderWidth) * 2);
+ width: calc(100% + var(--borderWidth) * 2);
+    background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+ border-radius: calc(2 * var(--borderWidth));
+    z-index: -1;
+    animation: animatedgradient 3s ease alternate infinite;
+    background-size: 300% 300%;
+}
+ @keyframes animatedgradient {
+ 0% {
+ background-position: 0% 50%;
+}
+ 50% {
+ background-position: 100% 50%;
+}
+ 100% {
+ background-position: 0% 50%;
+}
+}
+.blink {
+    animation: blink 1s linear infinite;
+}
+ @keyframes blink {
+0% {
+opacity: 0;
+}
+50% {
+opacity: .5;
+}
+100% {
+opacity: 1;
+}
+}
+.name {
+    font-family: Aspire-DemiBold;
+    font-size: 50px;
+    color: #fff;
+    position: absolute;
+    bottom: 6%;
+}
+.ball {
+    position: absolute;
+    border-radius: 100%;
+    opacity: 0.7;
+}
+.holi {
+    overflow: hidden;
+    background: #000;
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+#warpper {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2em 1em;
+    margin-top: 2%;
+    color: #fff;
+}
+@font-face {
+    font-family: kr;
+    src: url(/assets/fonts/kr.ttf);
+}
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(/assets/fonts/Roboto-Regular.ttf);
+}
+.wish-txt {
+    font-family: Roboto-Regular;
+    font-size: 18px;
+}
+.write {
+    animation: blinkingText 3s infinite;
+    font-family: kr;
+    letter-spacing: 10px;
+}
+@keyframes blinkingText {
+ 0% {
+color: #fff;
+}
+ 49% {
+color: transparent;
+}
+ 50% {
+color: transparent;
+}
+ 99% {
+color:transparent;
+}
+ 100% {
+color: #000;
+}
+}
+.w3-animate-bottom {
+    position: relative;
+    animation: animatebottom 2s
+}
+@keyframes animatebottom {
+from {
+bottom:-300px;
+opacity:0
+}
+to {
+bottom:0;
+opacity:1
+}
+}
